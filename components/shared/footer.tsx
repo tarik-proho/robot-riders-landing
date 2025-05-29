@@ -10,24 +10,9 @@ const links = [
 
 export function Footer() {
   return (
-    <footer className="w-full border-t bg-background">
-      {/* Call to Action Section */}
-      <div className="w-full bg-muted py-12">
-        <div className="container flex flex-col items-center justify-between gap-4 md:flex-row">
-          <div className="space-y-2">
-            <h2 className="text-2xl font-bold tracking-tight md:text-3xl">Call to Action</h2>
-            <p className="text-muted-foreground">
-              Ready to transform your business? Let our expert consultants help you achieve your goals.
-            </p>
-          </div>
-          <Button asChild size="lg" className="px-8">
-            <Link href="/contact">Sign up</Link>
-          </Button>
-        </div>
-      </div>
-
+    <footer className="w-full">
       {/* Main Footer Content */}
-      <div className="mx-auto w-full max-w-7xl px-6 py-12 md:px-12 lg:py-16">
+      <div className="mx-auto w-full max-w-7xl px-6 py-16">
         <div className="grid gap-8 lg:grid-cols-5">
           <div className="lg:col-span-2">
             <div className="flex flex-col gap-4">

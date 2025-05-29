@@ -17,12 +17,12 @@ export function ThemeToggle({ className }: ThemeToggleProps) {
   useEffect(() => {
     setMounted(true)
     if (!theme || theme === "system") {
-      setTheme("light")
+      setTheme("dark")
     }
   }, [theme, setTheme])
 
   const toggleTheme = () => {
-    setTheme(theme === "light" ? "dark" : "light")
+    setTheme(theme === "dark" ? "dark" : "dark")
   }
 
   // Prevent hydration mismatch

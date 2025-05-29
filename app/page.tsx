@@ -1,23 +1,17 @@
 "use client"
 
-import HeroSection from "@/components/hero-section"
-import { FeatureBlock } from "@/components/feature-block"
-import { BlogSection } from "@/components/blog-section"
-import { CookieConsent } from "@/components/cookie-consent";
+import Hero from "@/components/sections/hero";
+import { Features } from "@/components/sections/features";
+import FluidCursor from "@/components/fluid-cursor";
+import { Cards } from "@/components/sections/cards";
 
 export default function Home() {
   return (
     <>
-    <CookieConsent 
-      variant="default"
-      onAcceptCallback={() => {
-        close();
-      }}
-      onDeclineCallback={() => {
-        window.close();
-      }}
-    />
-      <HeroSection />
+      <FluidCursor />
+      <Hero />
+      <Features />
+      <Cards />
     </>
   )
 }

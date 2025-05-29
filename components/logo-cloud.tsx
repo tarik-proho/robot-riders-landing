@@ -4,89 +4,45 @@ import { ProgressiveBlur } from '@/components/ui/progressive-blur'
 export default function LogoCloud() {
     return (
         <section className="bg-background overflow-hidden py-16">
-            <div className="group relative m-auto max-w-7xl px-6">
-                <div className="flex flex-col items-center md:flex-row">
-                    <div className="md:max-w-44 md:border-r md:pr-6">
-                        <p className="text-end text-sm">Powering the best teams</p>
-                    </div>
+            <div className="group relative mx-auto max-w-7xl px-6">
+                <div className="flex flex-col items-center justify-center md:flex-row">
                     <div className="relative py-6 md:w-[calc(100%-11rem)]">
                         <InfiniteSlider
                             speedOnHover={20}
                             speed={40}
-                            gap={112}>
-                            <div className="flex">
+                            gap={175}>
+                            <div className="flex flex-col">
                                 <img
-                                    className="mx-auto h-5 w-fit dark:invert"
-                                    src="https://html.tailus.io/blocks/customers/nvidia.svg"
-                                    alt="Nvidia Logo"
-                                    height="20"
-                                    width="auto"
+                                    className="mx-auto h-22 w-fit"
+                                    src="./fire.png"
+                                    alt="mage-class"
                                 />
+                                <p className='text-xl font-semibold mt-3'>MAGE CLASS</p>
                             </div>
 
-                            <div className="flex">
+                            <div className="flex flex-col">
                                 <img
-                                    className="mx-auto h-4 w-fit dark:invert"
-                                    src="https://html.tailus.io/blocks/customers/column.svg"
-                                    alt="Column Logo"
-                                    height="16"
-                                    width="auto"
+                                    className="mx-auto h-22 w-fit"
+                                    src="./paladin.png"
+                                    alt="paladin-class"
                                 />
+                                <p className='text-xl font-semibold mt-3'>PALADIN CLASS</p>
                             </div>
-                            <div className="flex">
+                            <div className="flex flex-col">
                                 <img
-                                    className="mx-auto h-4 w-fit dark:invert"
-                                    src="https://html.tailus.io/blocks/customers/github.svg"
-                                    alt="GitHub Logo"
-                                    height="16"
-                                    width="auto"
+                                    className="mx-auto h-22 w-fit"
+                                    src="./archer.png"
+                                    alt="archer-class"
                                 />
+                                <p className='text-xl font-semibold mt-3'>RANGER CLASS</p>
                             </div>
-                            <div className="flex">
+                            <div className="flex flex-col">
                                 <img
-                                    className="mx-auto h-5 w-fit dark:invert"
-                                    src="https://html.tailus.io/blocks/customers/nike.svg"
-                                    alt="Nike Logo"
-                                    height="20"
-                                    width="auto"
+                                    className="mx-auto h-22 w-fit"
+                                    src="./spider.png"
+                                    alt="spider-class"
                                 />
-                            </div>
-                            <div className="flex">
-                                <img
-                                    className="mx-auto h-5 w-fit dark:invert"
-                                    src="https://html.tailus.io/blocks/customers/lemonsqueezy.svg"
-                                    alt="Lemon Squeezy Logo"
-                                    height="20"
-                                    width="auto"
-                                />
-                            </div>
-                            <div className="flex">
-                                <img
-                                    className="mx-auto h-4 w-fit dark:invert"
-                                    src="https://html.tailus.io/blocks/customers/laravel.svg"
-                                    alt="Laravel Logo"
-                                    height="16"
-                                    width="auto"
-                                />
-                            </div>
-                            <div className="flex">
-                                <img
-                                    className="mx-auto h-7 w-fit dark:invert"
-                                    src="https://html.tailus.io/blocks/customers/lilly.svg"
-                                    alt="Lilly Logo"
-                                    height="28"
-                                    width="auto"
-                                />
-                            </div>
-
-                            <div className="flex">
-                                <img
-                                    className="mx-auto h-6 w-fit dark:invert"
-                                    src="https://html.tailus.io/blocks/customers/openai.svg"
-                                    alt="OpenAI Logo"
-                                    height="24"
-                                    width="auto"
-                                />
+                                <p className='text-xl font-semibold mt-3'>SPIDER CLASS</p>
                             </div>
                         </InfiniteSlider>
 
