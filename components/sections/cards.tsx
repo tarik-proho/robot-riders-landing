@@ -35,7 +35,7 @@ export function Cards() {
                 autoplay={{ delay: 750 }}
                 modules={[Autoplay, EffectCoverflow]}>
                 {images.map((image) => (
-                    <SwiperSlide className="px-2">
+                    <SwiperSlide key={image} className="px-2">
                             <img src={image} alt={image} className="object-cover" />
                         
                 </SwiperSlide>
