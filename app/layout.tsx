@@ -14,7 +14,7 @@ export default function RootLayout({
       <body>
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={false} disableTransitionOnChange>
           <Header />
-          <div className="min-h-screen pt-25 mt-2">{children}</div>
+          <div className="min-h-screen pt-25 mt-2 mb-4">{children}</div>
           <Footer />
         </ThemeProvider>
       </body>
